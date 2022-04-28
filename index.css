@@ -104,7 +104,9 @@ body {
 img,
 picture {
 	max-width: 100%;
-	display: block;
+	/* The display property overrides the hidden attribute */
+
+	/* display: block; */
 }
 
 /* make form elements easier to work with */
