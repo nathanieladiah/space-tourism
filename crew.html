@@ -52,9 +52,12 @@
       <button aria-selected="false"><span class="sr-only">The crew engineer</span></button>
     </div>
 
-    <article class="crew-details">
-      <h2 class="fs-600 ff-serif uppercase">Commander</h2>
-      <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
+    <article class="crew-details flow">
+      <header class="flow flow--space-small">
+        <h2 class="fs-600 ff-serif uppercase">Commander</h2>
+        <!-- don't use another heading level for a subtitle -->
+        <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
+      </header>
      
       <p>
         Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
@@ -64,7 +67,10 @@
     </article>
 
     <!-- The image feels like it should be part of the article -->
-    <img src="assets/crew/image-douglas-hurley.png" alt="commander douglas hurley">
+    <picture>
+      <source srcset="assets/crew/image-douglas-hurley.webp" type="image/web"> 
+      <img src="assets/crew/image-douglas-hurley.png" alt="commander douglas hurley">
+    </picture>
   </main>
 </body>
 </html>
