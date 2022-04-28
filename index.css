@@ -587,6 +587,10 @@ body {
 	font-size: 1.75rem;
 }
 
+/* crew layout */
+
+
+
 @media (min-width: 35em) {
 	.numbered-title {
 		justify-self: start;
